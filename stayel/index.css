@@ -1,0 +1,71 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+
+}
+
+.menu {
+
+    min-width: 0em !important;
+}
+
+.photo::after {
+    position: absolute;
+    content: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 28%), rgba(0, 0, 0, 48%), rgba(0, 0, 0, 38%));
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.last {
+    height: 25vh;
+}
+
+.text {
+    height: 20vh;
+}
+
+img {
+
+
+    cursor: pointer;
+}
+
+.img:hover {
+
+    content: "";
+    transform: scale3d(1.2, 1.2, 1.2);
+
+
+
+
+}
+
+
+@media screen and (max-width:379px) {
+    .photos {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .one {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+}

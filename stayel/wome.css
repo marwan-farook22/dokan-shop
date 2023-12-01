@@ -1,0 +1,37 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+
+}
+
+.first:hover {
+
+    background-color: rgba(24, 21, 21, 0.673);
+    content: "";
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 1.2s;
+    color: aliceblue;
+}
+
+.women {
+    height: 50vh;
+    background: url("./image/images/products-background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.women::after {
+    position: absolute;
+    content: "";
+    height: 50vh;
+    width: 100%;
+
+    background-color: rgb(0, 0, 0, 63%);
+}
+
+@media screen and (max-width:320px) {
+    .photos {
+        width: 75%;
+    }
+}
